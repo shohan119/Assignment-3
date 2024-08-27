@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment-3</title>
-   
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Daisyui cdn -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
      <!-- Google Font CDN -->
      <link rel="preconnect" href="https://fonts.googleapis.com">
     
@@ -66,9 +67,11 @@
                     <li><a>Portfolio</a></li>
                     <li><a>Blogs</a></li>
                     <li><a>Contact Us</a></li>
+                   
                     </ul>
+                   
                   </div>
-                  <a class="btn btn-ghost text-xl">Rinterio</a>
+                  <a class="btn btn-ghost text-xl"><i class="fa fa-long-arrow-right -rotate-45 bg-[#ABEF5F] rounded-3xl p-1"></i> Rinterio</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                   <ul class="menu menu-horizontal px-1">
@@ -81,7 +84,7 @@
                 </div>
                 <div class="navbar-end">
                   
-                  <button class="btn btn-active btn-Book Consult bg-[#ABEF5F] rounded-3xl">Book Consult</button>
+                  <button class="btn btn-active btn-Book Consult bg-[#ABEF5F] rounded-3xl">Book Consult <i class="fa fa-long-arrow-right -rotate-45 bg-[#FFFFFF] rounded-3xl p-1"></i></button>
 
                 </div>
               </div>
@@ -93,15 +96,15 @@
                       
             <div class="text-center">
                            <!-- img contant -->
-              <div class="">
-              <img src="assets/banner.png" alt="">
+              <div class="text-center">
+              <img class="" src="assets/banner.png" alt="">
             </div>
                                <!-- text contant -->
               <h3 class="font-bold text-4xl mb-6">A barn house of this design has a <br> striking appearance</h3>
               <p class="mb-6">
                The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.
               </p>
-              <button class="bg-[#ABEF5F] p-2 rounded-3xl px-8">View Details</button>
+              <button class="bg-[#ABEF5F] p-2 rounded-3xl px-8">View Details <i class="fa fa-long-arrow-right -rotate-45 bg-[#ABEF5F] rounded-3xl p-1"></i>  </button>
             </div>  
         </section>
                         
@@ -119,7 +122,7 @@
                     <p class="text-gray-500">The barn house captivates with its blend of rustic charm and 
                       modern sophistication, featuring weathered wood, sleek metal accents.</p>
                       <div class="pt-4">
-                        <div class="flex gap-4 shadow-md rounded-lg ">
+                        <div class="flex gap-4 shadow-md rounded-lg p-16 ">
                           <div>
                           <img src="assets/commercial.png" alt="">
                         </div>
@@ -129,7 +132,7 @@
                         </div>
 
                         </div>
-                        <div class="flex gap-4 shadow-md rounded-lg pt-4">
+                        <div class="flex gap-4 shadow-md rounded-lg pt-4 p-16">
                           <div>
                           <img src="assets/residential.png" alt="">
                         </div>
@@ -163,7 +166,7 @@
                         <p class="text-gray-500">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
                       </div>
                              <!-- grid cards -->
-                       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 ">
+                       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 ">
                            <!-- Works card -->
                          <div class="rounded-lg shadow-md bg-[#E7C1D3] px-8">
                           <div>
@@ -204,19 +207,24 @@
                         <h3 class="font-bold text-3xl">Our Latest Portfolio</h3>
                         <p class="text-gray-500">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
                        </div>
-                       <div class="grid grid-cols-2 grid-rows-2 gap-4">
-                        <div class=" ">
-                          <div class="">
-                            <img src="assets/img1.png" alt="">
-                          
+                       <!-- <div class="grid grid-cols-2 grid-rows-2 gap-4"> -->
+                        <div class="">
+                          <div class="grid grid-cols-2">
+                            
+                            <div class="grid grid-cols-2">
+                            <div>
+                            <img class="" src="assets/img1.png" alt="">
+                          </div>
+                          <div class="m-5">
                            <h3 class="font-bold text-1xl">Commercial</h3>
                            <p>The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
                            <h3 class="font-bold">View Details</h3>
+                          </div>
                         </div>
-                       </div>
                        <div>
                         <img src="assets/img2.png" alt="">
                       </div>
+                    
                            <div>
                             <img src="assets/img3.png" alt="">
                            </div>
@@ -231,45 +239,40 @@
                            </div>
 
                       </div>
-                       <!-- <div class="grid grid-rows-4 grid-flow-col gap-4">
+                       <div class="grid grid-rows-4 grid-flow-col gap-4">
                         <div class="row-start-2 row-span-2 ...">01</div>
                         <div class="row-end-3 row-span-2 ...">02</div>
                         <div class="row-start-1 row-end-4 ...">03</div>
-                      </div> -->
+                      </div>
                 </section>
                             
                     <!-- FORM SECTION -->
        
         <section class="text-center">
-             <div class="pb-6">
-              <button class="bg-[#ABEF5F] p-2 rounded-3xl px-8">View Details  </button>
+             <div class="pb-6 pb-6">
+              <button class="bg-[#ABEF5F] p-2 rounded-3xl px-8 ">View Details <i class="fa fa-long-arrow-right -rotate-45 bg-[#ABEF5F] rounded-3xl p-1"></i> </button>
                  <h2 class="font-bold text-3xl pb-4">Let’s Discuss Next Project</h2>
                  <p class="text-gray-500 pb-6">The barn house captivates with its blend of rustic charm and modern sophistication,  <br>featuring weathered wood, sleek metal accents.</p>
              </div>
-          <div class="grid grid-cols-2 grid-rows-2 gap-4 text-center">
-            <form class="" action="">
-              <a class="rounded-3xl shadow-md p-4" href=""><input type="text" placeholder="First Name*"></a>
-              <a class="rounded-3xl shadow-md p-4" href=""><input type="text" placeholder="Last Name*"></a>
-            </form>
-
+            </section>
+            <div class="text-center mb-10 pb-12 w-full">
+        <form action="">
+          <a class="rounded-3xl shadow-md p-4  " href=""><input type="text" placeholder="First Name*"></a> 
+          <a class="rounded-3xl shadow-md p-4" href=""><input type="text" placeholder="Last Name*"></a><br><br>
+          <a class="rounded-3xl shadow-md p-4" href=""><input type="text" placeholder="Phone Number*"></a> 
+          <a class="rounded-3xl shadow-md p-4" href=""><input type="text" placeholder="Email Number*"></a>
+        </form>
+      </div> 
           </div>
-          <div class="grid grid-cols-2 grid-rows-2 gap-4 text-center">
-            <form class="" action="">
-              <a class="rounded-3xl shadow-md p-4" href=""><input type="text" placeholder="Phone Number*"></a>
-              <a class="rounded-3xl shadow-md p-4" href=""><input type="text" placeholder="Email Number*"></a>
-            </form>
-           
-          </div>
-          <div>
+          <div class="text-center pb-12">
             <form action="">
-              <a class="rounded-3xl shadow-md p-4 " href=""><input type="text" placeholder="Write your message here*"></a>
+              <a class="rounded-3xl shadow-md p-4 px-28 py-16 " href=""><input type="text" placeholder="Write your message here*"></a>
             </form>
-
           </div>
-          
-
-        </section>
-        <button class="bg-[#ABEF5F] p-2 rounded-3xl px-16 py-2 text-center">View Details  </button>
+          <div class="text-center gap-5 pt-6 px-28 pb-4">
+            <button class="bg-[#ABEF5F] p-2 rounded-3xl px-16 py-2 text-center w-full ">View Details <i class="fa fa-long-arrow-right -rotate-45 bg-[#ABEF5F] rounded-3xl p-1"></i>  </button>
+          </div>
+        
 
 
                        <!-- footer section -->
@@ -286,10 +289,12 @@
           </nav>
           <nav>
             <div class="grid grid-flow-col gap-4">
-            </div>
+            </div> 
+            <button class="text-black font-bold bg-[#ABEF5F] p-2 rounded-3xl py-3 px-16">Send Mail <i class="fa fa-long-arrow-right -rotate-45 bg-[#ABEF5F] rounded-3xl p-1"></i></button>
           </nav>
-          <button class="text-black font-bold bg-[#ABEF5F] p-2 rounded-3xl py-3 px-16">Send Mail</button>
+          
         </footer>
+        
         </footer>
 
 </body>
